@@ -1,0 +1,32 @@
+  
+
+//<---------- prime ----------->
+
+let num = 12;
+let count = 0;
+for(let i =1; i<=num; i++){
+if(num%i == 0){
+count++;
+}
+
+if(count == 2){
+console.log("NOt prime");
+}else{
+consoele.log("prime");
+}
+
+
+
+//<------------ palindrome -------------->
+
+let str = "racecar";
+let bag = "";
+
+for(let i =0; i<str.length; i++){
+  bag = bag + str[i];
+}
+
+if(str == bag){
+console.log("palindrome");
+}else{
+console.log("Not palindrome");
