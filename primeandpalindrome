@@ -4,12 +4,12 @@
 
 let num = 12;
 let count = 0;
-for(let i =1; i<=num; i++){
+for(let i =2; i<num; i++){
 if(num%i == 0){
 count++;
 }
 
-if(count == 2){
+if(count >= 2){
 console.log("NOt prime");
 }else{
 consoele.log("prime");
@@ -22,7 +22,7 @@ consoele.log("prime");
 let str = "racecar";
 let bag = "";
 
-for(let i =0; i<str.length; i++){
+for(let i =str.length-1; i>=0; i--){
   bag = bag + str[i];
 }
 
